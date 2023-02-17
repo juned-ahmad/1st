@@ -11,15 +11,17 @@
         android:id="@+id/btnup"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_margin="20dp"
-        android:text="UPLOAD" />
+        android:layout_weight="1"
+        android:text="UPLOAD"
+        app:icon="@android:drawable/ic_menu_send" />
 
     <Button
         android:id="@+id/btndown"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_margin="20dp"
-        android:text="download" />
+        android:layout_weight="1"
+        android:text="download"
+        app:icon="@android:drawable/stat_sys_download" />
 </LinearLayout>
